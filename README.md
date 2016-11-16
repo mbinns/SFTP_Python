@@ -22,5 +22,5 @@ This program will run as a daemon on an IOT devices and securly download updates
 
 ## OPTIONAL
 
-    * you can also specify a password to login to the server with for the user. To do so you can fill in the password variable and then uncomment the password authentication line
+* you can also specify a password to login to the server with for the user. To do so you can fill in the password variable and then uncomment the password authentication line
 
