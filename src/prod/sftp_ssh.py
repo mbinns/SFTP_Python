@@ -26,6 +26,8 @@ try:
 
     # connect to server using ssh private key/password 
     # ssh.connect(host, username=username, password=password)
+    # uses the look for keys parameter to go into the .ssh folder and look for any valid priv key
+    # returns a list and trys them all if there are more than one
     ssh.connect(host, username=username, look_for_keys=True)
 
     # open sftp connection
